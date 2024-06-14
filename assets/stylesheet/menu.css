@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    top: 0;
+    left: 0;
+    color: #777;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+
+}
+
+:root {
+    --yellow: #ffb606;
+    --heading: #131230;
+}
+
+/* ========================================================================= */
+
+.image {
+    background-image: url("../images/menu-bg.jpg.webp");
+}
+
+/* Serving */
+
+.menu {
+    padding-top: 10rem;
+}
+
+/* =========================================== Media Quaries ========================================= */
+
+/* Laptop L ( 1440px ) */
+
+/* tabble booking */
+
+@media screen and (max-width: 1440px) {
+
+    .booking {
+        margin-top: 84rem;
+    }
+
+}
+
+
+
+
+
+/* =========================================== Media Quaries ========================================= */
+
+/* Mobile M (375px ) */
+
+@media screen and (max-width: 375px) {
+
+    .booking {
+        margin-top: 197rem;
+    }
+
+    .booking-inputs i {
+        margin-left: 0;
+    }
+
+    .general-heading {
+        padding-bottom: 50px;
+    }
+}

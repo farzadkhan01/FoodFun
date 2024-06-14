@@ -1,0 +1,1239 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    top: 0;
+    left: 0;
+    font-family: 'Plus Jakarta Sans';
+
+}
+
+:root {
+    --yellow: #ffb606;
+    --heading: #131230;
+}
+
+/* ========================================================================= */
+.container {
+    margin-left: 381px;
+    margin-right: 381px;
+}
+
+
+/* Navbar */
+
+.image {
+    background-color: #00000061;
+    background-image: url("../images/banner-bg.jpg.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+}
+
+.navbar {
+    display: flex;
+    align-items: self-start;
+    justify-content: space-between;
+    background-color: #fff;
+    margin-left: 12.5rem;
+    margin-right: 12.5rem;
+    margin-top: 1rem;
+    padding: 20px 200px 20px 200px;
+    border-radius: 50px;
+}
+
+.navbar-referances ul li {
+    list-style: none;
+}
+
+.navbar-referances a {
+    text-decoration: none;
+    text-align: center;
+    color: #131230;
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+    display: inline-block;
+    padding: 15px;
+
+}
+
+
+/* First Impression */
+
+.first-impresstion {
+    color: #fff;
+    text-align: center;
+    padding-top: 320px;
+}
+
+.first-impresstion h6 {
+    color: #fff;
+    font-size: 16px !important;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.first-impresstion h2 {
+    color: #fff;
+    font-family: "Playfair Display", serif;
+    font-size: 60px !important;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.first-impresstion h2 span {
+    color: var(--yellow);
+}
+
+/* Welcomeing */
+
+.welcome-main {
+    margin-top: 30rem;
+    display: flex;
+    align-items: center;
+    margin-left: 107px;
+}
+
+.welcome-img {
+    padding-right: 120px;
+}
+
+.welcome-img img {
+    width: 100%;
+    height: 100%;
+}
+
+
+.heading-caption h2 {
+    color: var(--heading);
+    font-family: "Playfair Display", serif;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.heading-caption span {
+    color: var(--yellow);
+    font-style: italic;
+}
+
+.heading-caption p {
+    padding-top: 1rem;
+    color: #0009;
+    font-size: 13px;
+    line-height: 19px;
+}
+
+.heading-caption button {
+    margin-top: 32px;
+    border: 1px solid transparent;
+
+}
+
+
+.heading-caption button a {
+    text-decoration: none;
+    color: var(--heading);
+    background: #ffb606;
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 12px 30px;
+}
+
+/* serving */
+
+.serve-svg img {
+    float: right;
+}
+
+.serving {
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
+
+.serving-img {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 55px;
+}
+
+.food-serving {
+    margin-right: 28px;
+}
+
+.food-serving img {
+    width: 100%;
+    height: 100%;
+}
+
+.serving-caption {
+    padding: 30px;
+    background-color: #f9f9ff;
+    margin-top: -5px;
+}
+
+.serving-caption h2 {
+    color: #131230;
+    font-family: "Playfair Display", serif;
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: #f9f9ff;
+}
+
+.serving-caption p {
+    padding: 16px 0px;
+    color: #777;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.serving-caption span {
+    float: right;
+    color: var(--yellow);
+    font-size: 20px;
+}
+
+/* Reservation */
+
+.reservation {
+    text-align: center;
+    background-image: url('../images/reservation-bg.jpg.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 445px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.reservation h2 {
+    font-family: "Playfair Display", serif;
+    font-size: 42px;
+    font-weight: 700;
+
+}
+
+.reservation h5 {
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    font-style: italic;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.reservation a {
+    color: var(--heading);
+    background: var(--yellow);
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    border: 1px solid transparent;
+    display: inline-block;
+    padding: 12px 30px !important;
+    text-decoration: none;
+    box-shadow: none;
+}
+
+/* Special deshes */
+
+.heading-1 {
+    padding-top: 10rem;
+}
+
+.general-heading {
+    text-align: center;
+    padding-bottom: 80px;
+}
+
+.general-heading h4 {
+    color: var(--heading);
+    font-family: "Playfair Display", serif;
+    font-size: 36px !important;
+    font-weight: 700;
+}
+
+.general-heading h4 span {
+    color: var(--yellow);
+}
+
+.general-heading p {
+    color: #777;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: italic;
+    margin: 8px 0 16px 0;
+}
+
+.about-deshes {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.deshes-caption h2 {
+    color: var(--heading);
+    font-family: "Playfair Display", serif;
+    font-size: 60px;
+    font-weight: 700;
+    position: relative;
+    line-height: 1.2;
+    margin-bottom: 8px;
+
+}
+
+.deshes-caption h2::after {
+    content: '';
+    position: absolute;
+    top: 35px;
+    left: 90px;
+    width: 200px;
+    height: 1px;
+    background: #131230;
+}
+
+.for-left {
+    padding-left: 80px;
+}
+
+.for-left>span {
+    color: var(--yellow);
+    font-family: "Playfair Display", serif;
+    font-size: 36px !important;
+    font-weight: 700;
+}
+
+.for-left h3 {
+    color: var(--heading);
+    font-family: "Playfair Display", serif;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.for-left p {
+    color: #777;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+
+.for-left h4 {
+    color: var(--yellow);
+    font-family: "Playfair Display", serif;
+    font-size: 36px !important;
+    font-weight: 700;
+}
+
+.for-left a i {
+    padding-top: 16px;
+    padding-left: 5px;
+
+}
+
+.for-left a {
+    text-decoration: none;
+    color: var(--heading);
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.deshes-img-1 {
+    text-align: end;
+}
+
+.deshes-img img {
+    width: 80%;
+    height: 100%;
+}
+
+.desh-2 {
+    margin-top: 3rem;
+    margin-bottom: 130px;
+}
+
+/* feedback */
+
+.feedback {
+    background-image: url("../images/testimonial-bg.jpg.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 480px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.feedback::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 480px;
+    background-color: #000000b0;
+
+}
+
+.feedback-caption {
+    position: relative;
+    z-index: 1;
+
+}
+
+/* Updates */
+.updates {
+    padding-bottom: 130px;
+}
+
+.update-info {
+    margin-bottom: 1rem;
+}
+
+.update-info h5 {
+    color: #777;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.update-info h5 span {
+    color: #777;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    margin-right: 75px;
+}
+
+/* Tabble Booking */
+
+.booking {
+    background-image: url('../images/table-bg.jpg.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 545px;
+    position: relative;
+}
+
+.booking::before {
+    content: '';
+    position: absolute;
+    z-index: 1;
+    background-color: #0000007b;
+    width: 100%;
+    width: 100%;
+    height: 545px;
+}
+
+.table-booking {
+    position: relative;
+    z-index: 3;
+}
+
+.booking-inputs {
+    text-align: center;
+}
+
+.booking-inputs i {
+    margin-right: -40px;
+    position: relative;
+    z-index: 9;
+}
+
+.booking-inputs input {
+    padding: 10px 0px 10px 60px;
+    margin-right: 35px;
+    border-radius: 9px;
+    border: 0px solid;
+}
+
+.input-3 {
+    margin-right: 0;
+}
+
+.booking-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.booking-button a {
+    text-align: center;
+    color: var(--heading);
+    background: var(--yellow);
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    border: 1px solid transparent;
+    padding: 12px 30px;
+    text-decoration: none;
+    position: relative;
+    z-index: 6;
+}
+
+/* Footer */
+
+.footer {
+    background-color: #131230;
+    padding: 130px 0;
+}
+
+.footer-area {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    color: #777;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.footer-left p {
+    margin: 1rem 0;
+    line-height: 20px;
+}
+
+
+.middle-info {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.middle-info p {
+    margin-bottom: 16px;
+    line-height: 20px;
+    padding-left: 25px;
+    margin-top: -2px;
+}
+
+.icons i {
+    position: absolute;
+}
+
+.header h5 {
+    color: var(--yellow);
+    font-family: "Playfair Display", serif;
+    text-transform: capitalize;
+    font-size: 20px !important;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
+
+.footer-referance p {
+    padding-left: 0;
+}
+
+/* copyright */
+
+.copyright {
+    background-color: #0a0926;
+    padding: 30px 0;
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.copyright-area {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.social-media {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.comp a i {
+    color: #fff;
+    margin-left: 25px;
+}
+
+/* =========================================== Media Quaries ========================================= */
+
+/* Laptop L ( 1440px ) */
+
+@media screen and (max-width: 1440px) {
+
+    .container {
+        margin-left: 160px;
+        margin-right: 160px;
+    }
+
+    /* navbar */
+
+    .navbar {
+        padding: 20px 100px 20px 100px;
+        margin-left: 10.5rem;
+        margin-right: 10.5rem;
+    }
+
+    .first-impresstion {
+        padding-top: 250px;
+    }
+
+    /* welcoming */
+    .welcome-main {
+        margin-left: 80px;
+    }
+
+    .welcome-img {
+        padding-right: 10px
+    }
+
+    .heading-caption p {
+        font-size: 11px;
+    }
+
+    /* special deshes */
+
+    .for-left p {
+        font-size: 12px;
+    }
+
+    /* serving */
+
+    .serving {
+        padding-top: 9rem;
+        padding-bottom: 9rem;
+        position: absolute;
+    }
+
+    /* Reservation */
+
+    .reservation {
+        margin-top: 80rem;
+    }
+
+    /* Updates */
+
+    .update-info h5 span {
+        color: #777;
+        font-family: "Roboto", sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        margin-right: 0;
+    }
+}
+
+
+/* =========================================== Media Quaries ========================================= */
+
+/* Laptop L middle ( 1247px ) */
+
+@media screen and (max-width: 1247px) {
+
+    .container {
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+
+
+    /* navbar */
+
+    .navbar {
+        padding: 20px 75px 20px 75px;
+        margin-left: 4.5rem;
+        margin-right: 4.5rem;
+    }
+
+    .image::after {
+        content: "";
+        position: absolute;
+        background-color: #00000069;
+        width: 100%;
+        height: 100vh;
+    }
+
+    /* welcoming */
+
+    .welcome-img {
+        width: 55%;
+    }
+
+    /* serving */
+
+    .serving {
+        padding-bottom: 0rem;
+    }
+
+    /* reservation */
+
+    .reservation {
+        margin-top: 83rem;
+    }
+
+    /* special deshes  */
+
+
+    .deshes-img img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .for-left p br {
+        display: none;
+    }
+
+
+    .deshes-caption {
+        width: 50%;
+    }
+
+}
+
+
+/* =========================================== Media Quaries ========================================= */
+
+/* Laptop ( 1247px ) */
+
+@media screen and (max-width: 1024px) {
+    .container {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    /* navbar */
+
+    .navbar {
+        padding: 20px 50px 20px 50px;
+        margin-left: 2.5rem;
+        margin-right: 2.5rem;
+    }
+
+    /* welcoming */
+
+    .welcome-main {
+        margin-left: 0;
+    }
+
+    .deshes-img img {
+        width: 90%;
+    }
+
+    /* serving */
+
+    .serving-caption p {
+        line-height: 22px;
+    }
+
+    .serving-caption h2 {
+        font-size: 16px;
+    }
+
+    .serving-caption span {
+        font-size: 16px;
+    }
+
+    /* updates */
+
+    .serving-3 {
+        margin: 0;
+    }
+
+    .serving-6 {
+        margin: 0;
+    }
+
+    .serving-caption {
+        padding: 31px
+    }
+
+    /* footer */
+    .footer-left {
+        margin-right: 18px;
+    }
+
+    .footer-left {
+        width: 33%;
+        text-align: justify;
+    }
+
+    .footer-left p br {
+        display: none;
+    }
+
+    .footer-middle {
+        margin-right: 18px;
+    }
+
+    .footer-right {
+        margin-right: 0;
+    }
+}
+
+
+
+
+/* =========================================== Media Quaries ========================================= */
+
+/* Laptop middle ( 896px ) */
+
+@media screen and (max-width: 896px) {
+
+    .container {
+        margin-left: 35px;
+        margin-right: 35px;
+    }
+
+    /* Welcoming */
+
+    .heading-caption p br {
+        display: none;
+    }
+
+    .heading-caption {
+        width: 45%;
+        text-align: justify;
+        margin-right: 15px;
+    }
+
+    /* serving */
+
+    .serving-caption {
+        padding: 15px;
+    }
+
+    /* Reservation */
+
+    .reservation {
+        margin-top: 75rem;
+    }
+
+    /* special deshes*/
+
+    .deshes-caption h2::after {
+        content: '';
+        position: absolute;
+        top: 35px;
+        left: 90px;
+        width: 100px;
+    }
+
+    /* Table Booking */
+
+    .booking-inputs {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+
+
+
+
+/* =========================================== Media Quaries ========================================= */
+
+/* Tablet (768px ) */
+
+@media screen and (max-width: 768px) {
+
+    .container {
+        margin-left: 3rem;
+        margin-right: 3rem;
+    }
+
+    .navbar {
+        align-items: center;
+        padding: 20px 25px 20px 25px;
+
+    }
+
+    .hero-logo {
+        width: 40%;
+    }
+
+    .hero-logo a img {
+        width: 75%;
+    }
+
+    .navbar-referances a {
+        font-size: 12px;
+        padding: 10px;
+    }
+
+    /* welcoming */
+
+    .welcome-main {
+        flex-direction: column;
+    }
+
+    .welcome-img {
+        width: 80%;
+    }
+
+    .heading-caption {
+        width: 80%;
+    }
+
+    /* <!-- serving --> */
+
+    .serving-img {
+        flex-direction: column;
+    }
+
+    serving-img-2 {
+        padding-bottom: 30px;
+    }
+
+    .serving-3 {
+        margin: 0;
+    }
+
+    .serving-caption h2 {
+        font-size: 21px;
+    }
+
+    .serving-caption span {
+        font-size: 20px;
+    }
+
+    .serve-svg img {
+        opacity: 0.6;
+    }
+
+    .food-serving {
+        margin-right: 0px;
+        padding-top: 40px;
+    }
+
+    /* reservation */
+
+    .reservation {
+        margin-top: 220rem;
+    }
+
+    /* special Deshes */
+
+    .about-deshes {
+        flex-direction: column;
+    }
+
+    .deshes-caption {
+        width: 80%;
+    }
+
+    .deshes-img {
+        width: 80%;
+    }
+
+    .deshes-img img {
+        width: 100%;
+    }
+
+    .for-left {
+        padding-left: 60px;
+    }
+
+    /* <!-- table booking --> */
+
+    .booking-inputs {
+        margin: 0 50px;
+    }
+
+    .booking-inputs input {
+        width: 100%;
+    }
+
+    /* footer */
+
+    .footer {
+        padding: 100px 0;
+    }
+
+    .footer-area {
+        flex-direction: column;
+    }
+
+    .footer-left {
+        width: 100%;
+    }
+
+    .footer-middle {
+        width: 100%;
+        margin-right: 0px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .middle-info {
+        width: 100%;
+    }
+
+    .icons i {
+        position: absolute;
+        left: 55px;
+    }
+
+    .icons {
+        width: 100%;
+    }
+
+    .middle-info p {
+        margin-bottom: 16px;
+        line-height: 20px;
+        padding-left: 45px;
+        margin-top: -2px;
+    }
+
+    .footer-referance p {
+        padding-left: 0;
+    }
+
+    /* copyright */
+
+    .copyright-area {
+        flex-direction: column;
+    }
+
+    .copyright-text {
+        width: 100%;
+        text-align: center;
+        padding-bottom: 18px;
+    }
+
+    .comp a i {
+        margin-left: 18px;
+    }
+
+}
+
+
+
+
+
+/* =========================================== Media Quaries ========================================= */
+
+/* Tablet middle (597px ) */
+
+@media screen and (max-width: 597px) {
+
+    .container {
+        margin-left: 3rem;
+        margin-right: 3rem;
+    }
+
+    /* navbar */
+
+    .navbar {
+        flex-direction: column;
+    }
+
+    .hero-logo {
+        width: 50%;
+    }
+
+    .hero-logo a img {
+        width: 100%;
+    }
+
+    .navbar-referances {
+        margin-top: 20px;
+    }
+
+    /* First impression */
+
+    .first-impresstion {
+        padding-top: 200px;
+    }
+
+    .image::after {
+        background-color: #000000bd;
+    }
+
+    /* welcoming */
+
+    .welcome-main {
+        margin-top: 25rem;
+    }
+
+    /* serving */
+
+    .serving-img {
+        padding-top: 0;
+    }
+
+    /* reservation */
+
+    .reservation {
+        margin-top: 215rem;
+    }
+
+
+    /* special deshes */
+
+    .deshes-caption {
+        width: 100%;
+    }
+
+    .deshes-img {
+        width: 100%;
+    }
+
+    .for-left {
+        padding-left: 30px;
+        padding-bottom: 30px;
+    }
+
+    /* footer */
+
+    .icons i {
+        position: absolute;
+        left: 20px;
+    }
+
+}
+
+
+
+
+
+/* =========================================== Media Quaries ========================================= */
+
+/* only for one class (425px ) */
+
+@media screen and (max-width: 460px) {
+
+    .reservation {
+        margin-top: 200rem;
+    }
+
+
+}
+
+
+
+
+
+/* =========================================== Media Quaries ========================================= */
+
+/* Mobile (425px ) */
+
+@media screen and (max-width: 425px) {
+
+
+    .container {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+
+    /* navbar */
+
+    .navbar {
+        padding: 20px 20px 20px 20px;
+    }
+
+    /* Table Booking */
+
+    .heading-1 {
+        padding-top: 5rem;
+    }
+
+    .booking-inputs {
+        flex-direction: column;
+    }
+
+    .booking-inputs input {
+        margin-right: 0px;
+    }
+
+    .booking-inputs i {
+        margin-right: 18rem;
+        top: 25px;
+    }
+
+    /* reservation */
+
+    .reservation {
+        margin-top: 206rem;
+    }
+
+}
+
+
+
+
+/* =========================================== Media Quaries ========================================= */
+
+/* Mobile M (375px ) */
+
+@media screen and (max-width: 375px) {
+
+    /* navbar */
+
+    .navbar {
+        padding: 20px 5px 20px 5px;
+    }
+
+    .navbar-referances a {
+        font-size: 10px;
+    }
+
+
+    /* reservation */
+
+    .reservation {
+        margin-top: 193rem;
+    }
+
+
+    /* Booking Table */
+
+    .booking-inputs i {
+        margin-left: -18rem;
+        top: 25px;
+    }
+
+
+
+}
+
+
+/* =========================================== Media Quaries ========================================= */
+
+/* Mobile s (320px ) */
+
+@media screen and (max-width: 320px) {
+
+    /* reservation */
+
+    .reservation {
+        margin-top: 180rem;
+    }
+    
+
+}

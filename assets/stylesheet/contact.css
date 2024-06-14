@@ -1,0 +1,267 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    top: 0;
+    left: 0;
+    color: #777;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+
+}
+
+
+
+:root {
+    --yellow: #ffb606;
+    --heading: #131230;
+}
+
+/* ========================================================================= */
+
+.image {
+    background-image: url('../images/contact-bg.jpg.webp');
+}
+
+
+.map {
+    padding: 290px 0 130px 0;
+}
+
+.map iframe {
+    width: 100%;
+}
+
+.contact-icons h2 {
+    padding: 8px 0 16px 45px;
+    color: #777;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.contact-icons p {
+    color: #131230;
+    font-family: "Playfair Display", serif;
+    text-transform: capitalize;
+    font-size: 20px !important;
+    font-weight: 700;
+    padding-left: 45px;
+}
+
+.contact-icons i {
+    font-size: 20px;
+    color: #ffb606;
+}
+
+.middle-info p {
+    margin-bottom: 20px;
+}
+
+/* form */
+
+.contact-information {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding-bottom: 130px;
+}
+
+.middle {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 0 33px 0 35px;
+}
+
+.middle input {
+    padding: 12px 20px;
+    margin-bottom: 20px;
+    border: 1px solid #eee;
+}
+
+.right {
+    width: 90%;
+}
+
+.right textarea {
+    border: 1px solid #eee;
+    width: 90%;
+    height: 135px;
+    padding: 12px 20px;
+}
+
+.contact-btn {
+    float: right;
+}
+
+/* =========================================== Media Quaries ========================================= */
+
+/* Laptop L ( 1440px ) */
+
+/* tabble booking */
+
+@media screen and (max-width: 1440px) {
+
+    .right textarea {
+        border: 1px solid #eee;
+        width: 90%;
+        height: 135px;
+        padding: 12px 8px 12px 20px;
+    }
+
+}
+
+
+
+
+/* =========================================== Media Quaries ========================================= */
+
+/* Laptop middle ( 896px ) */
+
+@media screen and (max-width: 896px) {
+
+    .middle {
+        margin: 0 25px 0 25px;
+    }
+
+    .contact-btn {
+        width: 100%;
+        margin: 0;
+    }
+
+    .heading-caption button {
+        float: right;
+    }
+
+    .right textarea {
+        padding: 12px 0px 12px 15px;
+    }
+
+}
+
+
+
+
+
+
+/* =========================================== Media Quaries ========================================= */
+
+/* Tablet (768px ) */
+
+@media screen and (max-width: 768px) {
+
+
+
+    .contact-information {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .form {
+        width: 100%;
+    }
+
+    .contact-icons p {
+        padding: 0;
+    }
+
+    .contact-icons h2 {
+        padding-left: 0;
+    }
+
+    .icons i {
+        left: 8rem;
+    }
+
+    .middle {
+        margin: 0;
+        padding-top: 40px;
+
+    }
+
+    .middle input {
+        width: 100%;
+    }
+
+    .right {
+        width: 99%;
+        text-align: justify;
+    }
+
+    .right textarea {
+        width: 95%;
+    }
+
+    /* footer */
+
+    .icons i {
+        left: 3rem;
+    }
+}
+
+
+
+
+
+
+/* =========================================== Media Quaries ========================================= */
+
+/* Tablet middle (597px ) */
+
+@media screen and (max-width: 597px) {
+
+    .container {
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+
+    .about-general-heading {
+        padding: 77px 0 0px;
+    }
+
+
+    .map {
+        padding: 230px 0 130px 0;
+    }
+}
+
+
+
+
+
+/* =========================================== Media Quaries ========================================= */
+
+/* Mobile (425px ) */
+
+@media screen and (max-width: 425px) {
+
+
+    .right textarea {
+        width: 99%;
+    }
+
+}
+
+
+
+/* =========================================== Media Quaries ========================================= */
+
+/* Mobile M (375px ) */
+
+@media screen and (max-width: 375px) {
+
+    .container {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    .icons i {
+        left: 1rem;
+    }
+
+
+}
